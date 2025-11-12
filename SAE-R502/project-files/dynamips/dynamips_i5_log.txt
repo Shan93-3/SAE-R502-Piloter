@@ -1,0 +1,20 @@
+Nov 12 14:59:00.953 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 12 14:59:00.955 HYPERVISOR: Started on IP = localhost, TCP port = 55427.
+Nov 12 14:59:01.440 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 12 14:59:01.441 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\amara\Desktop\SAE-R502_Piloter\SAE-R502-Piloter\SAE-R502\project-files\dynamips 
+Nov 12 14:59:01.441 GENERAL: working_dir=C:\Users\amara\Desktop\SAE-R502_Piloter\SAE-R502-Piloter\SAE-R502\project-files\dynamips
+Nov 12 14:59:01.441 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\amara\Desktop\SAE-R502_Piloter\SAE-R502-Piloter\SAE-R502\project-files\dynamips\7ada2f1f-e037-4a01-83ac-611b713798fe 
+Nov 12 14:59:01.441 GENERAL: working_dir=C:\Users\amara\Desktop\SAE-R502_Piloter\SAE-R502-Piloter\SAE-R502\project-files\dynamips\7ada2f1f-e037-4a01-83ac-611b713798fe
+Nov 12 14:59:01.442 HYPERVISOR: exec_cmd: vm create R2 2 c7200 
+Nov 12 14:59:01.443 VM: VM R2 created.
+Nov 12 14:59:01.444 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5025 
+Nov 12 14:59:01.444 HYPERVISOR: exec_cmd: c7200 get_mac_addr R2 
+Nov 12 14:59:01.444 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 12 14:59:01.444 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-FE 
+Nov 12 14:59:01.444 HYPERVISOR: exec_cmd: vm set_nvram R2 512 
+Nov 12 14:59:01.445 HYPERVISOR: exec_cmd: vm set_ram R2 512 
+Nov 12 14:59:01.447 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/amara/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+Nov 12 14:59:01.448 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Nov 12 14:59:01.449 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Nov 12 14:59:01.531 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/amara/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+Nov 12 14:59:09.166 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/amara/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 

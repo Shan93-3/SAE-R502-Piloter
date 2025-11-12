@@ -1,0 +1,18 @@
+Nov 12 14:34:47.492 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 12 14:34:47.493 HYPERVISOR: Started on IP = localhost, TCP port = 54308.
+Nov 12 14:34:48.002 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 12 14:34:48.003 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\amara\Desktop\SAE-R502_Piloter\SAE-R502-Piloter\SAE-R502\project-files\dynamips 
+Nov 12 14:34:48.003 GENERAL: working_dir=C:\Users\amara\Desktop\SAE-R502_Piloter\SAE-R502-Piloter\SAE-R502\project-files\dynamips
+Nov 12 14:34:48.003 HYPERVISOR: exec_cmd: ethsw create Switch5 
+Nov 12 14:34:48.849 HYPERVISOR: exec_cmd: nio create_udp udp-706c9c8d-35b0-4d86-bfc9-a2dffe2b107d 10008 127.0.0.1 10009 
+Nov 12 14:34:48.850 HYPERVISOR: exec_cmd: ethsw add_nio Switch5 udp-706c9c8d-35b0-4d86-bfc9-a2dffe2b107d 
+Nov 12 14:34:48.872 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-706c9c8d-35b0-4d86-bfc9-a2dffe2b107d 1 
+Nov 12 14:34:48.912 HYPERVISOR: exec_cmd: nio create_udp udp-815818cb-ef3c-4b11-b9bb-6c9f450dc2b4 10010 127.0.0.1 10011 
+Nov 12 14:34:48.912 HYPERVISOR: exec_cmd: ethsw add_nio Switch5 udp-815818cb-ef3c-4b11-b9bb-6c9f450dc2b4 
+Nov 12 14:34:48.933 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-815818cb-ef3c-4b11-b9bb-6c9f450dc2b4 1 
+Nov 12 14:34:48.975 HYPERVISOR: exec_cmd: nio create_udp udp-bf1143a1-5053-4b62-9ed2-6520f5a5d100 10012 127.0.0.1 10013 
+Nov 12 14:34:48.976 HYPERVISOR: exec_cmd: ethsw add_nio Switch5 udp-bf1143a1-5053-4b62-9ed2-6520f5a5d100 
+Nov 12 14:34:48.993 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-bf1143a1-5053-4b62-9ed2-6520f5a5d100 1 
+Nov 12 14:34:49.032 HYPERVISOR: exec_cmd: nio create_udp udp-16e7f571-814c-4015-91f6-e1155e0d815e 10014 127.0.0.1 10015 
+Nov 12 14:34:49.033 HYPERVISOR: exec_cmd: ethsw add_nio Switch5 udp-16e7f571-814c-4015-91f6-e1155e0d815e 
+Nov 12 14:34:49.054 HYPERVISOR: exec_cmd: ethsw set_access_port Switch5 udp-16e7f571-814c-4015-91f6-e1155e0d815e 1 
