@@ -401,6 +401,70 @@
                     }
                 ],
                 "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "620d6d70-11fd-4a9e-9c32-7f25be915952",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e4",
+                            "x": 73,
+                            "y": 27
+                        },
+                        "node_id": "1f398f5f-5725-410c-933a-4c3918fd089e",
+                        "port_number": 4
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": -5,
+                            "y": 10
+                        },
+                        "node_id": "7ada2f1f-e037-4a01-83ac-611b713798fe",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "6e745ad7-ef26-4e9b-b385-3abf21dd22d3",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": 33,
+                            "y": 22
+                        },
+                        "node_id": "7ada2f1f-e037-4a01-83ac-611b713798fe",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": 33,
+                            "y": 22
+                        },
+                        "node_id": "16cfe4fa-deae-4640-8e44-95cf0c8200d3",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
             }
         ],
         "nodes": [
@@ -1044,7 +1108,7 @@
                         22
                     ],
                     "slot0": "C7200-IO-FE",
-                    "slot1": null,
+                    "slot1": "PA-FE-TX",
                     "slot2": null,
                     "slot3": null,
                     "slot4": null,
@@ -1113,7 +1177,7 @@
                         22
                     ],
                     "slot0": "C7200-IO-FE",
-                    "slot1": null,
+                    "slot1": "PA-2FE-TX",
                     "slot2": null,
                     "slot3": null,
                     "slot4": null,
@@ -1126,7 +1190,7 @@
                 "symbol": ":/symbols/classic/router.svg",
                 "template_id": "14d4d836-f50d-4a90-a960-e7967f1a011c",
                 "width": 66,
-                "x": 226,
+                "x": 250,
                 "y": 58,
                 "z": 1
             }
