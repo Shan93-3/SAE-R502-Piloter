@@ -529,6 +529,38 @@
                     }
                 ],
                 "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "1795451d-a225-4192-9138-229662982886",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "Ethernet",
+                            "x": -5,
+                            "y": 65
+                        },
+                        "node_id": "649a9b80-cf8a-4ca2-b438-0fc72f9d4010",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/1",
+                            "x": 70,
+                            "y": 8
+                        },
+                        "node_id": "1e2a3ed6-e054-47ea-8376-1075b7bd4245",
+                        "port_number": 1
+                    }
+                ],
+                "suspend": false
             }
         ],
         "nodes": [
@@ -557,8 +589,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": -427,
-                "y": -407,
+                "x": -203,
+                "y": -405,
                 "z": 1
             },
             {
@@ -586,8 +618,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": -362,
-                "y": -279,
+                "x": -218,
+                "y": -261,
                 "z": 1
             },
             {
@@ -615,8 +647,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": -70,
-                "y": -383,
+                "x": 238,
+                "y": -273,
                 "z": 1
             },
             {
@@ -644,8 +676,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": -26,
-                "y": -215,
+                "x": 192,
+                "y": -412,
                 "z": 1
             },
             {
@@ -673,8 +705,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": 319,
-                "y": -315,
+                "x": 559,
+                "y": -377,
                 "z": 1
             },
             {
@@ -702,8 +734,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": -345,
-                "y": -42,
+                "x": -221,
+                "y": -66,
                 "z": 1
             },
             {
@@ -731,8 +763,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": -69,
-                "y": -57,
+                "x": 245,
+                "y": -23,
                 "z": 1
             },
             {
@@ -760,8 +792,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": 279,
-                "y": 79,
+                "x": 495,
+                "y": 199,
                 "z": 1
             },
             {
@@ -789,8 +821,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": 315,
-                "y": -30,
+                "x": 541,
+                "y": 28,
                 "z": 1
             },
             {
@@ -818,8 +850,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": 334,
-                "y": -171,
+                "x": 536,
+                "y": -205,
                 "z": 1
             },
             {
@@ -847,8 +879,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": -359,
-                "y": 85,
+                "x": -225,
+                "y": 83,
                 "z": 1
             },
             {
@@ -876,8 +908,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": -66,
-                "y": 72,
+                "x": 210,
+                "y": 134,
                 "z": 1
             },
             {
@@ -956,8 +988,8 @@
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "template_id": "1966b864-93e7-32d5-965f-001384eec461",
                 "width": 72,
-                "x": -529,
-                "y": -134,
+                "x": -339,
+                "y": -140,
                 "z": 1
             },
             {
@@ -1036,8 +1068,8 @@
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "template_id": "1966b864-93e7-32d5-965f-001384eec461",
                 "width": 72,
-                "x": -251,
-                "y": -129,
+                "x": 5,
+                "y": -133,
                 "z": 1
             },
             {
@@ -1116,8 +1148,8 @@
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "template_id": "1966b864-93e7-32d5-965f-001384eec461",
                 "width": 72,
-                "x": 110,
-                "y": -125,
+                "x": 318,
+                "y": -117,
                 "z": 1
             },
             {
@@ -1173,8 +1205,8 @@
                 "symbol": ":/symbols/classic/router.svg",
                 "template_id": "3d0873c3-de2d-4771-bf2f-57b1adfa27c9",
                 "width": 66,
-                "x": -666,
-                "y": -137,
+                "x": -524,
+                "y": -147,
                 "z": 1
             },
             {
@@ -1230,8 +1262,79 @@
                 "symbol": ":/symbols/classic/router.svg",
                 "template_id": "3d0873c3-de2d-4771-bf2f-57b1adfa27c9",
                 "width": 66,
-                "x": -807,
-                "y": -134,
+                "x": -733,
+                "y": -142,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": null,
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 71,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "G1",
+                    "x": 66,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "G1",
+                "node_id": "649a9b80-cf8a-4ca2-b438-0fc72f9d4010",
+                "node_type": "cloud",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "interfaces": [
+                        {
+                            "name": "Ethernet",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Connexion r\u00e9seau Bluetooth",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Ethernet 3",
+                            "special": false,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "ports_mapping": [
+                        {
+                            "interface": "Ethernet",
+                            "name": "Ethernet",
+                            "port_number": 0,
+                            "type": "ethernet"
+                        },
+                        {
+                            "interface": "Connexion r\u00e9seau Bluetooth",
+                            "name": "Connexion r\u00e9seau Bluetooth",
+                            "port_number": 1,
+                            "type": "ethernet"
+                        },
+                        {
+                            "interface": "Ethernet 3",
+                            "name": "Ethernet 3",
+                            "port_number": 2,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "remote_console_host": "",
+                    "remote_console_http_path": "/",
+                    "remote_console_port": 23,
+                    "remote_console_type": "none"
+                },
+                "symbol": ":/symbols/cloud.svg",
+                "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
+                "width": 159,
+                "x": -1012,
+                "y": -152,
                 "z": 1
             }
         ]
@@ -1239,5 +1342,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.2.54",
-    "zoom": 119
+    "zoom": 42
 }
