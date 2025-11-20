@@ -1290,12 +1290,17 @@
                 "properties": {
                     "interfaces": [
                         {
+                            "name": "Connexion au r\u00e9seau local",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
                             "name": "Wi-Fi",
                             "special": true,
                             "type": "ethernet"
                         },
                         {
-                            "name": "Ethernet",
+                            "name": "Connexion r\u00e9seau Bluetooth",
                             "special": false,
                             "type": "ethernet"
                         }
