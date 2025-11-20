@@ -532,7 +532,7 @@
             },
             {
                 "filters": {},
-                "link_id": "1795451d-a225-4192-9138-229662982886",
+                "link_id": "42b4c6b0-6e08-4a07-881c-f3d4ad6201ae",
                 "link_style": {},
                 "nodes": [
                     {
@@ -540,12 +540,12 @@
                         "label": {
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "Ethernet",
-                            "x": -5,
-                            "y": 65
+                            "text": "VMware Network Adapter VMnet8",
+                            "x": 159,
+                            "y": 33
                         },
                         "node_id": "649a9b80-cf8a-4ca2-b438-0fc72f9d4010",
-                        "port_number": 0
+                        "port_number": 3
                     },
                     {
                         "adapter_number": 0,
@@ -553,8 +553,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f0/1",
-                            "x": 70,
-                            "y": 8
+                            "x": -6,
+                            "y": 22
                         },
                         "node_id": "1e2a3ed6-e054-47ea-8376-1075b7bd4245",
                         "port_number": 1
@@ -1290,18 +1290,23 @@
                 "properties": {
                     "interfaces": [
                         {
+                            "name": "Wi-Fi",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
                             "name": "Ethernet",
                             "special": false,
                             "type": "ethernet"
                         },
                         {
-                            "name": "Connexion r\u00e9seau Bluetooth",
-                            "special": false,
+                            "name": "VMware Network Adapter VMnet1",
+                            "special": true,
                             "type": "ethernet"
                         },
                         {
-                            "name": "Ethernet 3",
-                            "special": false,
+                            "name": "VMware Network Adapter VMnet8",
+                            "special": true,
                             "type": "ethernet"
                         }
                     ],
@@ -1322,6 +1327,12 @@
                             "interface": "Ethernet 3",
                             "name": "Ethernet 3",
                             "port_number": 2,
+                            "type": "ethernet"
+                        },
+                        {
+                            "interface": "VMware Network Adapter VMnet8",
+                            "name": "VMware Network Adapter VMnet8",
+                            "port_number": 3,
                             "type": "ethernet"
                         }
                     ],
