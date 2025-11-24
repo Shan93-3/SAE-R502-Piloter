@@ -145,7 +145,7 @@ GNS3 : Simulation réseau
 
 GitHub : Versionning du projet
 
-Trello : Suivi de l'avancé
+Trello : Suivi de l'avancée du projet
 
 VMware : Accès Internet et virtualisation
 
