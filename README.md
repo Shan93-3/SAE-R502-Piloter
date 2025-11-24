@@ -150,8 +150,11 @@ Trello : Suivi Agile (KANBAN)
 VMware : Accès Internet et virtualisation
 
 **Structure du Répertoire**
+
 /SAE-R502-Piloter
+
 ├── SAE-R502-2.gns3                 # Projet GNS3 principal
+
 ├── projet_files/                   # Configurations routeurs/firewall
 
 
