@@ -1,2 +1,2 @@
-ip dhcp
-save
+set pcname VPCS
+dhcp
