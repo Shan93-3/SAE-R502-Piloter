@@ -1,38 +1,30 @@
-Projet GNS3 – Architecture Réseau Sécurisée
+## Projet GNS3 – Architecture Réseau Sécurisée
+_Projet réalisé dans le cadre de la SAE-R502 (BUT Réseaux & Télécommunications)._
 
-Ce projet consiste à concevoir, configurer et valider une architecture réseau complète et sécurisée sous GNS3, intégrant plusieurs réseaux, un service DHCP, un firewall, du routage dynamique et une connectivité Internet fonctionnelle.
+Ce projet consiste à concevoir, configurer et valider une architecture réseau complète et sécurisée sous GNS3, intégrant plusieurs réseaux, un service DHCP, un firewall, du routage statique et une connectivité Internet fonctionnelle.
 
-**Sommaire**
+## **Sommaire**
 
-Topologie Réseau
-
-Objectifs du Projet
-
-Fonctionnalités Implantées
-
-Configuration des Équipements
-
-Prérequis
-
-Installation & Déploiement
-
-Tests de Validation
-
-Outils Utilisés
-
-Structure du Répertoire
-
-Équipe Projet
+- [Topologie Réseau](#topologie-réseau)
+- [Objectifs du Projet](#objectifs-du-projet)
+- [Fonctionnalités Implantées](#fonctionnalités-implantées)
+- [Configuration des Équipements](#configuration-des-équipements)
+- [Prérequis](#prérequis)
+- [Installation & Déploiement](#installation--déploiement)
+- [Tests de Validation](#tests-de-validation)
+- [Outils Utilisés](#outils-utilisés)
+- [Structure du Répertoire](#structure-du-répertoire)
+- [Équipe Projet](#équipe-projet)
+- [Licence](#licence)
 
 
-
-**Topologie Réseau**
+## **Topologie Réseau**
 
 ![Topologie Réseau](topologie.png)
 
 
 
-**Objectifs du Projet**
+## **Objectifs du Projet**
 
 Mettre en place une architecture réseau multi-segment avec 2 réseaux distincts.
 
@@ -46,7 +38,7 @@ Implémenter un NAT fonctionnel, un routage propre et une segmentation correcte.
 
 Vérifier la communication inter-réseaux et les performances.
 
-**Fonctionnalités Implantées**
+## **Fonctionnalités Implantées**
 
 Deux réseaux composés de 6 machines chacun
 
@@ -62,7 +54,7 @@ NAT + routage configurés
 
 Tests de connectivité concluants
 
-**Configuration des Équipements**
+## **Configuration des Équipements**
 
 _**Routeur DHCP**_
 
@@ -81,13 +73,17 @@ NAT Overload pour la sortie Internet
 
 Routes statiques pour retour vers les réseaux internes
 
+Règles de filtrage :
+- Blocage de la sortie Internet pour les adresses 192.168.10.13 et 192.168.10.14
+
+
 _**VMware**_
 
 Fournit la connectivité Internet via la carte vmnet8
 
 Relié au firewall dans GNS3
 
-**Prérequis**
+## **Prérequis**
 
 GNS3 installé
 
@@ -97,7 +93,7 @@ VMware Workstation
 
 Fichier du projet : SAE-R502-2.gns3project
 
-**Installation & Déploiement**
+## **Installation & Déploiement**
 
 Importer le projet dans GNS3 :
 
@@ -121,11 +117,11 @@ Obtenir une IP via DHCP :
 
 Les VMs reçoivent une adresse via DHCP
 
-Tests de Validation
+## **Tests de Validation**
 
 Ping entre machines du même réseau
 
-Ping inter-réseaux
+Ping bloqué vers l'exterieur pour les adresses 192.168.10.13 et 192.168.10.14
 
 Ping vers l’extérieur (8.8.8.8)
 
@@ -139,32 +135,34 @@ Exemple de validation :
 
 ping 8.8.8.8
 
-**Outils Utilisés**
+## **Outils Utilisés**
 
 GNS3 : Simulation réseau
 
-GitHub : Versionning du projet
+GitHub : Versioning du projet
 
 Trello : Suivi de l'avancée du projet
 
 VMware : Accès Internet et virtualisation
 
-**Structure du Répertoire**
+## **Structure du Répertoire**
 
 /SAE-R502-Piloter
 
 ├── SAE-R502-2.gns3                 # Projet GNS3 principal
 
-├── projet_files/                   # Configurations routeurs/firewall
+├── projet_files/                   # Configurations routeurs/firewall/VPCS
 
 
-**Équipe Projet**
+## **Équipe Projet**
 
-Lead Dev  : AMARATUNGA Shanaka, DOUMA Lucas
+Lead Dev  : DOUMA Lucas
 
 Scrum Master : BEN MOUALLI Ayoub
 
-**Licence**
+Référent Réseau : AMARATUNGA Shanaka
+
+## **Licence**
 
 MIT License
 
