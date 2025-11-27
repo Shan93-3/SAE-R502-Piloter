@@ -26,7 +26,7 @@ Ce projet consiste à concevoir, configurer et valider une architecture réseau 
 
 ## **Objectifs du Projet**
 
-Mettre en place une architecture réseau multi-segment avec 2 réseaux distincts.
+Mettre en place une architecture réseau.
 
 Assurer une distribution d’adresses via DHCP.
 
@@ -40,7 +40,7 @@ Vérifier la communication inter-réseaux et les performances.
 
 ## **Fonctionnalités Implantées**
 
-Deux réseaux composés de 6 machines chacun
+Une Architecture réseau
 
 Service DHCP opérationnel (Cisco Router)
 
@@ -91,7 +91,7 @@ Image Cisco c3725
 
 VMware Workstation
 
-Fichier du projet : SAE-R502-2.gns3project
+Fichier du projet : SAE-R502-2.gns3
 
 ## **Installation & Déploiement**
 
@@ -125,7 +125,7 @@ Ping bloqué vers l'exterieur pour les adresses 192.168.10.13 et 192.168.10.14
 
 Ping vers l’extérieur (8.8.8.8)
 
-Accès Internet depuis toutes les machines
+Accès Internet depuis toutes les machines autorisées.
 
 DHCP fonctionnel et stable
 
